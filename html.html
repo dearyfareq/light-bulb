@@ -11,11 +11,15 @@
 </head>
 <body>
   <img src="/light-bulb/light-bulb on.png" class="light-bulb" id="bulb">
-  <button onclick="changeon()" class="btn">
-  </button>
-  <button onclick="changeoff()" class="btn">
-  </button>
-  <audio src="/light-bulb/lightswitch audio.m4a" id="myAudio"></audio>
+  <div class="btns">
+    <button onclick="changeon()" class="btn" id="btn">
+        <p class="p1" id="p">ON</p>
+    </button>
+    <button onclick="changeoff()" class="btn" id="btn">
+        <p class="p2" id="p">OFF</p>
+    </button>
+    <audio src="/light-bulb/lightswitch audio.m4a" id="myAudio"></audio>
+  </div>
   <script src="js.js" async defer></script>
 </body>
 
