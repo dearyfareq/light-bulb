@@ -10,6 +10,7 @@ body{
     height: 1000px;
     margin-left: 1200px;
 }
-button{
-    margin-left: -1500px;
+.btn{
+    width: 100px;
+    height: 100px;
 }
