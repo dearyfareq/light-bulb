@@ -14,12 +14,14 @@ body{
     width: 150px;
     height: 150px;
     margin-right: 50px;
+    transition: 1s;
 }
 .btn2{
     width: 150px;
     height: 150px;
     margin-right: 50px;
     background-color: black;
+    transition: 1s;
 }
 .btns{
     margin-left: 500px;
@@ -30,4 +32,7 @@ body{
 .p2{
     font-size: 50px;
     color: aliceblue;
+}
+img{
+    transition: 1s;
 }
